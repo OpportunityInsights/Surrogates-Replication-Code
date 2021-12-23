@@ -22,20 +22,20 @@ global surrogates "[PLEASE INSERT THE FILE DIRECTORY]" // For example: global su
 global data_type simulated // change to "real" if using real dataset 
 
 * Create relevant directories
-cap mkdir "${surrogates}/Data (Derived)"
+cap mkdir "${surrogates}/Data-derived"
 cap mkdir "${surrogates}/Output"
 
 * Set globals
 global code "${surrogates}/Code"
-global data_raw "${surrogates}/Data (raw)"
-global data_derived "${surrogates}/Data (derived)"
+global data_raw "${surrogates}/Data-raw"
+global data_derived "${surrogates}/Data-derived"
 global output "${surrogates}/Output"
 
 /*---------------------------------
       Compute estimates
 ----------------------------------*/
 * Produce experimental, surrogate index, single surrogate and naive estimates of treatment effects 
-do "${code}/compute estimates/Estimate treatment effects (experimental, surrogate index, single surrogate, naive).do"
+do "${code}/Compute Estimates/Estimate treatment effects.do"
 
 * Compute confidence intervals 
 	// This .do file produces the confidence intervals referred to in footnote 16. 
