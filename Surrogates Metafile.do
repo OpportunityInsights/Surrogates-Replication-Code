@@ -55,33 +55,33 @@ foreach ext in wmf pdf {
 	***********************
 	*      Figure 2       *
 	***********************
-	do "${code}/figures/figure 2.do"
+	do "${code}/Figures/Figure 2.do"
 
 	***********************
 	*      Figure 3       *
 	***********************
-	do "${code}/figures/figure 3A.do"
-	do "${code}/figures/figure 3B.do"
+	do "${code}/Figures/Figure 3A.do"
+	do "${code}/Figures/Figure 3B.do"
 
 	***********************
 	*      Figure 4       *
 	***********************
-	do "${code}/figures/figure 4.do"
+	do "${code}/Figures/Figure 4.do"
 
 	***********************
 	*      Figure 5       *
 	***********************
-	do "${code}/figures/figure 5.do"	
+	do "${code}/Figures/Figure 5.do"	
 	
 	***********************
 	*      Figure 6       *
 	***********************
-	do "${code}/figures/figure 6A.do"
+	do "${code}/Figures/Figure 6A.do"
 	
 	***********************
 	*  Appendix Figure 5  *
 	***********************
-	do "${code}/figures/appendix figure 5A.do"
+	do "${code}/Figures/Appendix Figure 5A.do"
 }
 
 /*---------------------------------
@@ -98,33 +98,33 @@ if "$data_type" == "real" {
 		***********************
 		*      Figure 6       *
 		***********************
-		do "${code}/figures/figure 6B.do"
+		do "${code}/Figures/Figure 6B.do"
 
 		***********************
 		*  Appendix Figure 1  *
 		***********************
-		do "${code}/figures/appendix figure 1.do"
+		do "${code}/Figures/Appendix Figure 1.do"
 
 		***********************
 		*  Appendix Figure 2  *
 		***********************
-		do "${code}/figures/appendix figure 2A.do"
-		do "${code}/figures/appendix figure 2B.do"
+		do "${code}/Figures/Appendix Figure 2A.do"
+		do "${code}/Figures/Appendix Figure 2B.do"
 
 		***********************
 		*  Appendix Figure 3  *
 		***********************
-		do "${code}/figures/appendix figure 3.do"
+		do "${code}/Figures/Appendix Figure 3.do"
 
 		***********************
 		*  Appendix Figure 4  *
 		***********************
-		do "${code}/figures/appendix figure 4.do"
+		do "${code}/Figures/Appendix Figure 4.do"
 
 		***********************
 		*  Appendix Figure 5  *
 		***********************
-		do "${code}/figures/appendix figure 5B.do"
+		do "${code}/Figures/Appendix Figure 5B.do"
 	}
 }
 
@@ -132,7 +132,7 @@ if "$data_type" == "real" {
          Make tables
 ----------------------------------*/
 * Appendix Table 1
-do "${code}/tables/format appendix table 1.do"
+do "${code}/Tables/Format Appendix Table 1.do"
 
 * Appendix Table 2
-do "${code}/tables/format appendix table 2.do"
+do "${code}/Tables/Format Appendix Table 2.do"
