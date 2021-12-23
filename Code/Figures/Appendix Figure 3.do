@@ -20,4 +20,4 @@ twoway	(rcap upper_experimental lower_experimental quarter, lwidth(*.5) color("1
 		title(" ", size(${title_size}))
 		
 * Export graph 
-graph export "${output}\Appendix Figure 3.${extension}", replace
+graph export "${output}/Appendix Figure 3.${extension}", replace

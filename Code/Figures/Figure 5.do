@@ -28,4 +28,4 @@ tw ///
 	title(" ", size(vhuge))
 
 * Export graph
-graph export "${output}\Figure 5 (Raw).${extension}", replace
+graph export "${output}/Figure 5 (Raw).${extension}", replace

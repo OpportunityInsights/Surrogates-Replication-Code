@@ -24,4 +24,4 @@ twoway	///
 		xscale(range(2 9)) ///
 		legend(order(3 "Six-Quarter Surrogate Index Estimate" 2 "Actual Experimental Estimate") position(7) ring(0) cols(1)) ///
 		title(" ", size(${title_size}))
-graph export "${output}\Appendix Figure 5A.${extension}", replace 
+graph export "${output}/Appendix Figure 5A.${extension}", replace 

@@ -23,4 +23,4 @@ tw ///
 	title(" ", size(vhuge))
 
 * Export graph
-graph export "${output}\Appendix Figure 4 (Raw).${extension}", replace
+graph export "${output}/Appendix Figure 4 (Raw).${extension}", replace

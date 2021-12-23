@@ -76,4 +76,4 @@ twoway ///
 	title(" ", size(vhuge))
 
 * Export graph
-graph export "${output}\Figure 2.${extension}", replace
+graph export "${output}/Figure 2.${extension}", replace
