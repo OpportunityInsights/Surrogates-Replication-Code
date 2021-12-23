@@ -25,4 +25,4 @@ twoway	///
 		title(" ", size(${title_size}))
 		
 * Export graph 
-graph export "${output}\Figure 4.${extension}", replace
+graph export "${output}/Figure 4.${extension}", replace

@@ -40,4 +40,4 @@ tw ///
 	xscale( range(-3 7.5))
 	
 * Export graph 
-graph export "${output}\Figure 6A.${extension}", replace
+graph export "${output}/Figure 6A.${extension}", replace
