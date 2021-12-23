@@ -3,6 +3,7 @@ Replication Code for "The Surrogate Index: Combining Short-Term Proxies to Estim
 This code replicates the application to the GAIN job training program in Athey, Chetty, Imbens and Kang (2019), using a simulated dataset of employment outcomes.
 
 The code can be run directly from Surrogates Metafile.do by setting the global ${surrogates} to point to this repository.
+If running on  MacOS or Linux, change the figure output extension from "wmf" to "png" in "Surrogates Metafile.do".
 
 Alternatively, each file in the folder Code can be run individually. 
 The main .do file is Estimate treatment effects.do, which is contained in Code/Compute Estimates. 
