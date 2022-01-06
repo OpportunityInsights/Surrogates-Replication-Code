@@ -22,4 +22,4 @@ twoway	///
 		title(" ", size(${title_size}))
 		
 * Export graph 
-graph export "${output}\Appendix Figure 2B.${extension}", replace
+graph export "${output}/Appendix Figure 2B.${extension}", replace

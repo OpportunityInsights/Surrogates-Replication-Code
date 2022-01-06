@@ -5,8 +5,7 @@
 This file rearranges the weights on each quarter so that they are outputted 
 as Appendix Table 1. 
 
-The weights themselves are calculated in "Estimate treatment effects (experimental, 
-surrogate index, single surrogate, naive).do." 
+The weights themselves are calculated in "Estimate treatment effects.do." 
 */ 
 
 * Import results 

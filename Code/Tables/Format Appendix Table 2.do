@@ -5,8 +5,7 @@
 This file rearranges the surrogate index estimates of treatment effects so that 
 they are outputted the way that they appear in Appendix Table 2. 
 
-The weights themselves are calculated in "Estimate treatment effects (experimental, 
-surrogate index, single surrogate, naive).do." */ 
+The weights themselves are calculated in "Estimate treatment effects.do." */ 
 
 * Import results 
 import delimited using "${data_derived}/Unformatted Appendix Tables Output.csv", clear 
